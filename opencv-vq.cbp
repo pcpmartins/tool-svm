@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tool-svm" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tool-svm" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option parameters="bin/SVM/A75/A75_cut_mrmr22_t1_norm_best.csv bin/SVM/parsed/binary_labels_certhi_700.csv -e=10 -a=true" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../../../../opencv-3.2.0/include" />
+					<Add directory="../../../../opencv-3.2.0/include/opencv" />
+					<Add directory="../../../../opencv-3.2.0/include/opencv2" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_core.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_highgui.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_imgcodecs.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_imgproc.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_video.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_videoio.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_objdetect.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_bgsegm.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_face.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_optflow.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_saliency.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_text.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_videostab.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_ml.so" />
+					<Add directory="../../../../opencv-3.2.0/build/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tool-svm" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="bin/SVM/new_beach/i_output_beach_train_final30_norm0.csv bin/SVM/new_beach/i_output_beach_bin_final30.csv -e=2 -a=true" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-s" />
+					<Add directory="include" />
+					<Add directory="../../../../opencv-3.2.0/include/opencv" />
+					<Add directory="../../../../opencv-3.2.0/include/opencv2" />
+					<Add directory="../../../../opencv-3.2.0/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_core.so" />
+					<Add library="../../../../opencv-3.2.0/build/lib/libopencv_ml.so" />
+					<Add directory="../../../../opencv-3.2.0/build/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="`opencv-config --cxxflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`opencv-config --ldstaticflags`" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

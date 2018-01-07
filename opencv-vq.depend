@@ -1,0 +1,216 @@
+# depslib dependency file v1.0
+1484256646 source:/home/xangola/Documents/apps/opencv-vq/main.cpp
+	<fstream>
+	"processing.h"
+	"utility.h"
+	"main.h"
+	<numeric>
+	<opencv2/core/core.hpp>
+
+1484226831 /home/xangola/Documents/apps/opencv-vq/include/processing.h
+	"utility.h"
+	<opencv2/core/utility.hpp>
+	<opencv2/saliency.hpp>
+
+1483891596 /home/xangola/Documents/apps/opencv-vq/include/utility.h
+	<iostream>
+	<string>
+	<numeric>
+	<opencv2/core.hpp>
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1484256523 /home/xangola/Documents/apps/opencv-vq/main.h
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/objdetect.hpp"
+	<opencv2/opencv.hpp>
+	<opencv2/core/utility.hpp>
+	<opencv2/saliency.hpp>
+	"opencv2/video/tracking.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/video/background_segm.hpp"
+	<opencv2/saliency.hpp>
+
+1484226831 source:/home/xangola/Documents/apps/opencv-vq/src/processing.cpp
+	"processing.h"
+
+1484225244 source:/home/xangola/Documents/apps/opencv-vq/src/utility.cpp
+	"utility.h"
+
+1482497684 /home/xangola/opencv-3.2.0/include/opencv2/opencv.hpp
+	"opencv2/opencv_modules.hpp"
+	"opencv2/core.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/flann.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/ml.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/shape.hpp"
+	"opencv2/stitching.hpp"
+	"opencv2/superres.hpp"
+	"opencv2/video.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/videostab.hpp"
+	"opencv2/viz.hpp"
+	"opencv2/cudaarithm.hpp"
+	"opencv2/cudabgsegm.hpp"
+	"opencv2/cudacodec.hpp"
+	"opencv2/cudafeatures2d.hpp"
+	"opencv2/cudafilters.hpp"
+	"opencv2/cudaimgproc.hpp"
+	"opencv2/cudaobjdetect.hpp"
+	"opencv2/cudaoptflow.hpp"
+	"opencv2/cudastereo.hpp"
+	"opencv2/cudawarping.hpp"
+
+1484226831 source:/home/xangola/Documents/apps/opencv-vq (copy)/src/processing.cpp
+	"processing.h"
+
+1484226831 /home/xangola/Documents/apps/opencv-vq (copy)/include/processing.h
+	"utility.h"
+	<opencv2/core/utility.hpp>
+	<opencv2/saliency.hpp>
+
+1483891596 /home/xangola/Documents/apps/opencv-vq (copy)/include/utility.h
+	<iostream>
+	<string>
+	<numeric>
+	<opencv2/core.hpp>
+	"opencv2/objdetect.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+
+1484225244 source:/home/xangola/Documents/apps/opencv-vq (copy)/src/utility.cpp
+	"utility.h"
+
+1485016415 source:/home/xangola/Documents/apps/opencv-vq -ml/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1484614040 source:/home/xangola/Documents/apps/opencv-vq -ml-old/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1485051606 source:/home/xangola/Documents/apps/opencv-vq -ml-test/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1485213794 source:/home/xangola/Documents/apps/opencv-vq -ml-test-350/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1485556957 source:/home/xangola/Documents/apps/opencv-vq -ml-test-350 auto/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1486401445 source:/home/xangola/Documents/apps/opencv-vq -ml-test-350 auto 1by1/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1486811157 source:/home/xangola/Documents/apps/opencv-vq -ml-auto-train/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1489186216 source:/home/xangola/Documents/apps/opencv-vq -ml-full-labels/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1492168705 source:/home/xangola/Documents/apps/opencv-vqa/ml/main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	"opencv2/imgcodecs.hpp"
+	<opencv2/highgui.hpp>
+	<opencv2/ml.hpp>
+	<iostream>
+	<fstream>
+	<math.h>
+	<sstream>
+
+1492708262 source:/home/xangola/Documents/apps/opencv-vqa/ml-new-test/main.cpp
+	<opencv2/ml.hpp>
+	<fstream>
+
+1492726188 source:/home/xangola/Documents/apps/opencv-vqa/ml-amazing/main.cpp
+	<opencv2/ml.hpp>
+	<fstream>
+
+1499271852 source:/home/xangola/Documents/apps/opencv-vqa/ml-manual/main.cpp
+	<opencv2/ml.hpp>
+	<fstream>
+
+1511437487 source:/home/xangola/Documents/apps/opencv-vqa/ml-manual-final/main.cpp
+	<opencv2/ml.hpp>
+	<fstream>
+
+1513534875 source:/home/xangola/Documents/apps/opencv-vqa/ml-manual-final cv/main.cpp
+	<opencv2/ml.hpp>
+	<fstream>
+
+1514905272 source:/home/xangola/Documents/apps/opencv-vqa/toolSVM/main.cpp
+	<opencv2/ml.hpp>
+	<fstream>
+	<chrono>
+
