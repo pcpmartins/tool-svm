@@ -43,7 +43,7 @@
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="bin/SVM/new_beach/i_output_beach_train_final30_norm0.csv bin/SVM/new_beach/i_output_beach_bin_final30.csv -e=2 -a=true" />
+				<Option parameters="bin/SVM/i_random_fixed/1_interest_best30_train_x_norm.csv bin/SVM/i_random_fixed/1_interest_best30_binary.csv  -e=100 -a=false" />
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-s" />

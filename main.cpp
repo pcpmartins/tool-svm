@@ -212,7 +212,7 @@ int main(int argc, const char **argv)
 
                         }
 
-                        double acertoF = ((float)acertos/linhas)*100;
+                        double acertoF = ((float)acertos/linhas);
                         double precision = (float)tp/(tp+fp);
                         if(isnan(precision)) precision = 0.0;
                         double recall = (float)tp/(fn+tp);
@@ -248,8 +248,12 @@ int main(int argc, const char **argv)
                         opt_c = c;
                         opt_g = g;
 
-                        cout<<"new-> A: "<<opt_acertos<<"%"<<" P: "<< crossPrecision/folds
-                            <<" R: "<<(double)crossRecall/folds<<" FPR: "<<crossFPR/folds<<" C:"<<opt_c<<" G:"<<opt_g<<endl;
+                        double optPrecision = crossPrecision/folds;
+                        double optRecall =  crossRecall/folds;
+                        double F1 = 2*((optPrecision*optRecall)/(optPrecision+optRecall));
+
+                        cout<<"new-> A: "<<opt_acertos<<" "<<" P: "<< crossPrecision/folds
+                            <<" R: "<<(double)crossRecall/folds<<" F1: "<< F1<<" C: "<<opt_c<<" G: "<<opt_g<<endl;
                     }
 
                     evaluation_start = 0;

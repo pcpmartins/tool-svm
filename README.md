@@ -11,22 +11,22 @@ the Evaluation process can be done with the openCV SVM autoTrain method or with 
 
 ## Aplication features
 
-* 1 - Train SVM classifiers.
-* 2 - Exponential grid-search.
-* 4 - Use own training/evaluation ratio for cross validation or,
-* 5 - Use opencv SVM trainAuto with automatic optimal parameters
+* 1 - Train SVM classifiers
+* 2 - Exponential grid-search
+* 4 - Select the training/evaluation ratio for cross validation
+* 5 - Use trainAuto or experimental method for optimal param. search
 * 3 - Evaluation of classifiers performance.
 
 ## Input
 
 It must be provided two files, one with the feature vector and one with the corresponding experimental binary values.
-It should also be selected an interval for evaluation.
+It should also be selected an interval for evaluation that determines the folds.
 
 ## Output
 
 This application outputs different statistical measures to help evaluate how good is the performance of a model.
 
-![figure 1](/images/tool-svm-stats.png)
+![figure 1](/images/tool-svm-stats2.png)
 *figure 1 - Statistical measures*
 
 ## Usage
